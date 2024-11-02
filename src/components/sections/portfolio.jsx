@@ -67,13 +67,14 @@ const Portfolio = ({ className }) => {
             </ul>
           </SlideUp>
           <div className="row project-masonry-active overflow-hidden">
-            {filteredProjects.map(({ category, id, src, title }) => (
+            {filteredProjects.map(({ category, id, src, title, link }) => (
               <Card
                 key={id}
                 id={id}
                 category={category}
                 src={src}
                 title={title}
+                link={link}
                 animationClass={animationClass}
               />
             ))}
@@ -86,14 +87,14 @@ const Portfolio = ({ className }) => {
 
 export default Portfolio;
 
-const Card = ({ category, title, src, animationClass, id }) => {
+const Card = ({ category, title, src, animationClass, id, link }) => {
   return (
     <div className={`col-lg-4 col-md-6 item branding game ${animationClass}`}>
       <SlideUp delay={id}>
         <div className="project-item style-two">
           <div className="project-image">
             <img src={src} alt="Project" />
-            <Link to="/single-project" className="details-btn">
+            <Link to={`${link}`} target="_blank" className="details-btn">
               <RiArrowRightUpLine />{" "}
             </Link>
           </div>

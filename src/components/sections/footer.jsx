@@ -1,4 +1,9 @@
-import { RiGithubLine, RiLinkedinFill, RiTwitterXLine } from "@remixicon/react";
+import {
+  RiGithubLine,
+  RiLinkedinFill,
+  RiTreeFill,
+  RiTwitterXLine,
+} from "@remixicon/react";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -36,6 +41,11 @@ const Footer = () => {
                   <li>
                     <a href="https://github.com/Munim-Ali" target="_blank">
                       <RiGithubLine size={18} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://linktr.ee/munimali" target="_blank">
+                      <RiTreeFill size={20} />
                     </a>
                   </li>
                 </ul>

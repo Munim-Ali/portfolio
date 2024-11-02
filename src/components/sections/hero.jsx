@@ -8,6 +8,7 @@ import {
   RiGithubLine,
   RiCircleFill,
   RiDownloadLine,
+  RiTreeFill,
 } from "@remixicon/react";
 import profile from "../../assets/images/about/profile.png";
 import Javascript from "../../assets/images/technology/Javascript.png";
@@ -20,6 +21,7 @@ import shadcn from "../../assets/images/technology/ShadCn.png";
 import materialUI from "../../assets/images/technology/Material-UI.png";
 import bootstrap from "../../assets/images/technology/BootStrap.png";
 import wordpress from "../../assets/images/technology/Wordpress.png";
+import CV from "../../assets/docs/Syed-Abdul-Munim-Ali-Frontend-Dev.pdf";
 import SlideUp from "../../utlits/animations/slideUp";
 
 const Hero = () => {
@@ -54,6 +56,11 @@ const Hero = () => {
                         <RiGithubLine size={20} />
                       </a>
                     </li>
+                    <li>
+                      <a href="https://linktr.ee/munimali" target="_blank">
+                        <RiTreeFill size={20} />
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -81,12 +88,12 @@ const Hero = () => {
                   </ul>
                 </div>
                 <div className="hero-btns">
-                  <Link to="/contact" className="theme-btn">
+                  <a href={CV} className="theme-btn" download>
                     Download CV{" "}
                     <i>
                       <RiDownloadLine size={16} />
                     </i>{" "}
-                  </Link>
+                  </a>
                 </div>
               </div>
             </SlideUp>
