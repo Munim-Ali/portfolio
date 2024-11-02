@@ -10,7 +10,7 @@ import {
   RiDownloadLine,
 } from "@remixicon/react";
 import profile from "../../assets/images/about/profile.png";
-import Javascript from "../../assets/images/technology/javascript.png";
+import Javascript from "../../assets/images/technology/Javascript.png";
 import Typescript from "../../assets/images/technology/typescript.png";
 import ReactImg from "../../assets/images/technology/react-js.png";
 import Next from "../../assets/images/technology/next-js.png";
