@@ -10,11 +10,16 @@ import {
   RiDownloadLine,
 } from "@remixicon/react";
 import profile from "../../assets/images/about/profile.png";
-import partner1 from "../../assets/images/client-logos/partner1.png";
-import partner2 from "../../assets/images/client-logos/partner2.png";
-import partner3 from "../../assets/images/client-logos/partner3.png";
-import partner4 from "../../assets/images/client-logos/partner4.png";
-import partner5 from "../../assets/images/client-logos/partner5.png";
+import Javascript from "../../assets/images/technology/javascript.png";
+import Typescript from "../../assets/images/technology/typescript.png";
+import ReactImg from "../../assets/images/technology/react-js.png";
+import Next from "../../assets/images/technology/next-js.png";
+import redux from "../../assets/images/technology/redux.png";
+import tailwind from "../../assets/images/technology/Tailwind-CSS.png";
+import shadcn from "../../assets/images/technology/ShadCn.png";
+import materialUI from "../../assets/images/technology/Material-UI.png";
+import bootstrap from "../../assets/images/technology/BootStrap.png";
+import wordpress from "../../assets/images/technology/Wordpress.png";
 import SlideUp from "../../utlits/animations/slideUp";
 
 const Hero = () => {
@@ -27,7 +32,7 @@ const Hero = () => {
             <SlideUp>
               <div className="about-image-part">
                 <img src={profile} alt="About Me" />
-                <h2>Munim Ali</h2>
+                <h2 className="mt-4">Munim Ali</h2>
                 <p>I am a Frontend Developer based in Karachi, Pakistan.</p>
                 <div className="about-social text-center">
                   <ul>
@@ -92,12 +97,16 @@ const Hero = () => {
                   <div className="scroller">
                     <div className="scroller__inner">
                       <Marquee>
-                        <img src={partner1} alt="" />
-                        <img src={partner2} alt="" />
-                        <img src={partner3} alt="" />
-                        <img src={partner4} alt="" />
-                        <img src={partner5} alt="" />
-                        <img src={partner1} alt="" />
+                        <img src={Javascript} alt="" />
+                        <img src={Typescript} alt="" />
+                        <img src={ReactImg} alt="" />
+                        <img src={Next} alt="" />
+                        <img src={redux} alt="" />
+                        <img src={tailwind} alt="" />
+                        <img src={shadcn} alt="" />
+                        <img src={materialUI} alt="" />
+                        <img src={bootstrap} alt="" />
+                        <img src={wordpress} alt="" />
                       </Marquee>
                     </div>
                   </div>
