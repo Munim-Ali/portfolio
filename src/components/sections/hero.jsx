@@ -11,10 +11,10 @@ import {
 } from "@remixicon/react";
 import profile from "../../assets/images/about/profile.png";
 import Javascript from "../../assets/images/technology/Javascript.png";
-import Typescript from "../../assets/images/technology/typescript.png";
-import ReactImg from "../../assets/images/technology/react-js.png";
-import Next from "../../assets/images/technology/next-js.png";
-import redux from "../../assets/images/technology/redux.png";
+import Typescript from "../../assets/images/technology/TypeScript.png";
+import ReactImg from "../../assets/images/technology/React-JS.png";
+import Next from "../../assets/images/technology/Next-JS.png";
+import redux from "../../assets/images/technology/Redux.png";
 import tailwind from "../../assets/images/technology/Tailwind-CSS.png";
 import shadcn from "../../assets/images/technology/ShadCn.png";
 import materialUI from "../../assets/images/technology/Material-UI.png";
