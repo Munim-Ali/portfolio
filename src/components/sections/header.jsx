@@ -36,7 +36,6 @@ const Header = () => {
               <div className="logo">
                 <Link to="/">
                   <img src={logo} alt="Logo" title="Logo" />
-                  Munim Ali is my name.
                 </Link>
               </div>
             </div>
