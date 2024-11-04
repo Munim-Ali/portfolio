@@ -34,7 +34,7 @@ jobs:
         uses: w9jds/firebase-action@master
         if: github.ref == 'refs/heads/main'
         with:
-          args: use prod
+          args: use munim-ali
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
