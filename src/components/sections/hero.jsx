@@ -10,7 +10,7 @@ import {
   RiDownloadLine,
   RiTreeFill,
 } from "@remixicon/react";
-import profile from "../../assets/images/about/profile.png";
+import profile from "../../assets/images/about/profile.webp";
 import Javascript from "../../assets/images/technology/Javascript.png";
 import Typescript from "../../assets/images/technology/TypeScript.png";
 import ReactImg from "../../assets/images/technology/React-JS.png";
