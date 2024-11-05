@@ -56,7 +56,7 @@ const Hero = () => {
                         <RiGithubLine size={20} />
                       </a>
                     </li>
-                    <li>
+                    <li className="linktree-icon">
                       <a href="https://linktr.ee/munimali" target="_blank">
                         <RiTreeFill size={20} />
                       </a>

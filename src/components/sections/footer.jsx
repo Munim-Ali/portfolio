@@ -22,7 +22,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 d-flex align-items-center justify-content-end">
+            <div className="col-lg-6 d-flex align-items-center justify-content-end justify-content-center justify-content-lg-end">
               <div className="footer-social text-end">
                 <ul>
                   <li>
