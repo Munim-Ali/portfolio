@@ -1,4 +1,5 @@
 import StackedLobbies from "../../assets/images/projects/StackedLobbies.webp";
+import Expedite from "../../assets/images/projects/Expedite.webp";
 import Revolon from "../../assets/images/projects/Revolon.webp";
 import Kafoor from "../../assets/images/projects/Kafoor.webp";
 import Make from "../../assets/images/projects/Make.webp";
@@ -11,7 +12,7 @@ import RevolonDapp from "../../assets/images/projects/RevolonStaking.webp";
 export const projectsData = [
   {
     id: 1,
-    src: StackedLobbies,
+    src: Expedite,
     category: "Portfolio",
     title: "Expedite Studio",
     link: "https://expeditestudio.com/",
