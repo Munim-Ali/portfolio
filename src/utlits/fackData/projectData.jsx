@@ -1,75 +1,81 @@
-import work_1 from "../../assets/images/projects/work1.jpg";
-import work_2 from "../../assets/images/projects/work2.jpg";
-import work_3 from "../../assets/images/projects/work3.jpg";
-import work_4 from "../../assets/images/projects/work4.jpg";
+import StackedLobbies from "../../assets/images/projects/StackedLobbies.webp";
+import Revolon from "../../assets/images/projects/Revolon.webp";
+import Kafoor from "../../assets/images/projects/Kafoor.webp";
+import Make from "../../assets/images/projects/Make.webp";
+import Xord from "../../assets/images/projects/Xord.webp";
+import Dap from "../../assets/images/projects/Dap.webp";
+import Metro from "../../assets/images/projects/Metro.webp";
+import Aurum from "../../assets/images/projects/Aurum.webp";
+import RevolonDapp from "../../assets/images/projects/RevolonStaking.webp";
 
 export const projectsData = [
   {
     id: 1,
-    src: work_1,
+    src: StackedLobbies,
     category: "Portfolio",
     title: "Expedite Studio",
     link: "https://expeditestudio.com/",
   },
   {
     id: 2,
-    src: work_2,
-    category: "E-commerce",
-    title: "FAFO Brands",
-    link: "https://fafobrands.com/",
+    src: RevolonDapp,
+    category: "Web App",
+    title: "Revolon Dapp",
+    link: "https://app.revolon.gg/",
   },
+
   {
     id: 3,
-    src: work_3,
-    category: "Web App",
+    src: Revolon,
+    category: "Portfolio",
     title: "Revolon",
     link: "https://revolon.gg/",
   },
   {
     id: 4,
-    src: work_4,
+    src: Make,
     category: "Portfolio",
     title: "MAKE",
     link: "https://makegroup.io/",
   },
   {
     id: 5,
-    src: work_3,
+    src: Kafoor,
     category: "E-commerce",
     title: "Kafoor",
     link: "https://kafoor.us/",
   },
   {
     id: 6,
-    src: work_1,
+    src: StackedLobbies,
     category: "Web App",
     title: "Stacked Lobbies",
     link: "https://stackedlobbies.gg/",
   },
   {
     id: 7,
-    src: work_1,
+    src: Xord,
     category: "Portfolio",
     title: "Xord",
     link: "https://xord.com/",
   },
   {
     id: 8,
-    src: work_1,
+    src: Dap,
     category: "Portfolio",
     title: "Documentary Association Pakistan",
     link: "https://documentaryassociationpakistan.com/",
   },
   {
     id: 9,
-    src: work_1,
+    src: Metro,
     category: "Portfolio",
     title: "Metro Construction",
     link: "https://metrocg.com.au/",
   },
   {
     id: 10,
-    src: work_1,
+    src: Aurum,
     category: "Portfolio",
     title: "AurumFSG",
     link: "https://aurumfsg.com/",
