@@ -11,9 +11,14 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_lpelvnv", "template_2bd4fgu", form.current, {
-        publicKey: "RxDLWzLCJ9SzQUns5",
-      })
+      .sendForm(
+        process.env.REACT_APP_EMAIL_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: process.env.REACT_APP_EMAIL_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
           toast.success("Form submitted successfully!");
