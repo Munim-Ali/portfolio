@@ -20,9 +20,9 @@ const Summery = () => {
           <div className="col-lg-8">
             <SlideUp>
               <div className="about-content-part">
-                <h2>I’m Munim Ali, a frontend developer.</h2>
+                <h2>I’m Munim Ali, a software developer.</h2>
                 <p>
-                  I’m a Pakistan-based frontend developer specializing in web
+                  I’m a Pakistan-based software developer specializing in web
                   design, interactive UI, and responsive layouts. With a strong
                   background in creating seamless, user-focused digital
                   experiences, I’ve worked across a variety of industries,

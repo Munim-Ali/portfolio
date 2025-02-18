@@ -35,7 +35,7 @@ const Hero = () => {
               <div className="about-image-part">
                 <img src={profile} alt="About Me" />
                 <h2 className="mt-4">Munim Ali</h2>
-                <p>I am a Frontend Developer based in Karachi, Pakistan.</p>
+                <p>I am a Software Developer based in Karachi, Pakistan.</p>
                 <div className="about-social text-center">
                   <ul>
                     <li>
@@ -73,7 +73,7 @@ const Hero = () => {
               <div className="about-content-part">
                 <p>Hello There!</p>
                 <h2>
-                  I’m Munim Ali, a frontend developer dedicated to crafting
+                  I’m Munim Ali, a software developer dedicated to crafting
                   visually engaging, user-centric experiences that feel as
                   flawless as they look.
                 </h2>

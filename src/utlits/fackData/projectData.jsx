@@ -8,8 +8,16 @@ import Dap from "../../assets/images/projects/Dap.webp";
 import Metro from "../../assets/images/projects/Metro.webp";
 import Aurum from "../../assets/images/projects/Aurum.webp";
 import RevolonDapp from "../../assets/images/projects/RevolonStaking.webp";
+import Vvin from "../../assets/images/projects/vvin.webp";
 
 export const projectsData = [
+  {
+    id: 1,
+    src: Vvin,
+    category: "E-commerce",
+    title: "VVIN Academy",
+    link: "https://vvin.academy/",
+  },
   {
     id: 1,
     src: Expedite,
