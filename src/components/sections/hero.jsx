@@ -83,7 +83,7 @@ const Hero = () => {
                       <i>
                         <RiCircleFill size={14} />
                       </i>{" "}
-                      Available for Freelancing
+                      Available for Projects, Remote and Part-time Jobs
                     </li>
                   </ul>
                 </div>
