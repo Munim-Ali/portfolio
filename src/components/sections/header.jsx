@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { RiShakeHandsLine } from "@remixicon/react";
+import { RiShakeHandsLine, RiMailCheckLine } from "@remixicon/react";
 import logo from "../../assets/images/logo.png";
 import { menuList } from "../../utlits/fackData/menuList";
 import CV from "../../assets/docs/Syed-Abdul-Munim-Ali-Frontend-Developer.pdf";
@@ -81,7 +81,7 @@ const Header = () => {
                 Hire Me <RiShakeHandsLine size={15} />{" "}
               </Link>
               <a href={CV} target="_blank" className="theme-btn">
-                Resume <RiShakeHandsLine size={15} />{" "}
+                Resume <RiMailCheckLine size={15} />{" "}
               </a>
             </div>
           </div>
