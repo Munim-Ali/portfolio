@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { RiShakeHandsLine } from "@remixicon/react";
 import logo from "../../assets/images/logo.png";
 import { menuList } from "../../utlits/fackData/menuList";
+import CV from "../../assets/docs/Syed-Abdul-Munim-Ali-Frontend-Developer.pdf";
 
 const Header = () => {
   const pathName = useLocation().pathname;
@@ -79,6 +80,9 @@ const Header = () => {
               <Link to="/contact" className="theme-btn">
                 Hire Me <RiShakeHandsLine size={15} />{" "}
               </Link>
+              <a href={CV} target="_blank" className="theme-btn">
+                Resume <RiShakeHandsLine size={15} />{" "}
+              </a>
             </div>
           </div>
         </div>

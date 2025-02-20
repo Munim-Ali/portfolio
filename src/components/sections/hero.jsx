@@ -21,7 +21,7 @@ import shadcn from "../../assets/images/technology/ShadCn.png";
 import materialUI from "../../assets/images/technology/Material-UI.png";
 import bootstrap from "../../assets/images/technology/BootStrap.png";
 import wordpress from "../../assets/images/technology/Wordpress.png";
-import CV from "../../assets/docs/Syed-Abdul-Munim-Ali-Frontend-Dev.pdf";
+import CV from "../../assets/docs/Syed-Abdul-Munim-Ali-Frontend-Developer.pdf";
 import SlideUp from "../../utlits/animations/slideUp";
 
 const Hero = () => {
@@ -88,7 +88,7 @@ const Hero = () => {
                   </ul>
                 </div>
                 <div className="hero-btns">
-                  <a href={CV} className="theme-btn" download>
+                  <a href={CV} target="_blank" className="theme-btn" download>
                     Download CV{" "}
                     <i>
                       <RiDownloadLine size={16} />
